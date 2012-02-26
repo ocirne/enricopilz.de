@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="de-de">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/media/css/{{ page.css }}style.css" />
+    <title>Homepage &lt; enricopilz.de</title>
+</head>
+
+<body>
+    <div id="page">
+        <div id="top">
+            <h1><a href="/"><img alt="www.enricopilz.de" src="/media/images/{{ page.topimage }}" /></a></h1>
+        </div>
+        <div id="main">
+            <div id="sidebar">
+                <ul>
+                    <li><img alt="Steckbrief" src="/media/images/steckbrief.png" />&nbsp;<a href="/steckbrief">Steckbrief</a></li>
+                    <li><img alt="Bilder" src="/media/images/bilder.png" />&nbsp;<a href="/bilder">Bilder</a></li>
+                    <li><img alt="Videos" src="/media/images/videos.png" />&nbsp;<a href="/videos">Videos</a></li>
+                    <li><img alt="Rezepte" src="/media/images/rezepte.png" />&nbsp;<a href="/rezepte">Rezepte</a></li>
+                    <li><img alt="Studium" src="/media/images/studium.png" />&nbsp;<a href="/studium">Studium</a></li>
+                    <li>&nbsp;</li>
+                    <li><img alt="kontakt" src="/media/images/kontakt.png" />&nbsp;<a href="/kontakt" class="emph">Kontakt</a></li>
+                    <li><a href="mailto:kontakt@enricopilz.de">kontakt@enricopilz.de</a></li>
+                </ul>
+            </div>
+
+            <div id="content">
+                <h2>{{ page.title }}</h2>
+                {{ content }}
+            </div>
+
+        </div>
+        <div id="footer">
+            &copy; 2006 &ndash; 2012 Enrico Pilz<br />
+            <a href="mailto:kontakt@enricopilz.de">kontakt@enricopilz.de</a> | <a href="http://www.enricopilz.de/">www.enricopilz.de</a>
+        </div>
+    </div>
+</body>
+</html>
+

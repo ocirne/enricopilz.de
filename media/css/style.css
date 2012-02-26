@@ -1,0 +1,237 @@
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    width: 750px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+div {
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+#top {
+    text-align: center;
+}
+
+#inhalt {
+    float: right;
+    width: 500px;
+    padding: 10px;
+}
+
+#footer {
+    clear: both;
+    padding: 2em 5px 2em 0;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color: #03c;
+}
+
+a:hover {
+    color: #f90;
+}
+
+h1 {
+    font-size: 24px;
+    color: #B36B00;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #B36B00;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #B36B00;
+}
+
+hr {
+    border: thin solid white;
+    background-color: #FFCC80;
+    height: 2px;
+}
+
+p {
+    text-align: left;
+    margin-top: 1px;
+}
+
+img {
+    border: 0;
+}
+
+pre {
+    border: thin solid black;
+    padding: 5px;
+    margin-bottom: 2em;
+}
+
+#quicklink {
+    border: solid thin #B36B00;
+    clear: both;
+    float: right;
+    margin-bottom: 1em;
+}
+
+#quicklink legend {
+    color: #B36B00;
+    font-weight: bold;
+    padding: 0 0.3em; 
+}
+
+#quicklink label {
+    float: left;
+    width: 8em;
+}
+
+#cloud {
+    clear: right;
+    float: right;
+    width: 20em;
+}
+
+#cloud a {
+    color: #369;
+}
+
+#links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#links li {
+    margin-bottom: 0.5em;
+}
+
+.linkdate {
+    font-size: 0.62em;
+    color: #666;
+}
+
+#search {
+    clear: both;
+    float: right;
+    margin-bottom: 1em;
+}
+
+#content {
+    float: left;
+    width: 500px;
+}
+
+.date {
+    color: #B36B00;
+}
+
+#books ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: #666;
+}
+
+#books li {
+    margin-bottom: 0.5em;
+}
+
+#menue {
+    clear: both;
+}
+
+#sidebar {
+    float: left;
+    width: 200px;
+    margin-bottom: 0.5em;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar li {
+    text-align: right;
+    padding-right: 1em;
+    list-style-type: none;
+}
+
+.emph {
+    font-weight: bold;
+}
+
+p.docu a:before {
+    content: url(/media/icons/document.png);
+    border: 0;
+}
+
+p.html a:before {
+    content: url(/media/icons/html.png);
+    border: 0;
+}
+
+p.pdf a:before {
+    content: url(/media/icons/pdf.png);
+    border: 0;
+}
+
+p.source a:before {
+    content: url(/media/icons/source.png);
+    border: 0;
+}
+
+p.unknown a:before {
+    content: url(/media/icons/unknown.png);
+    border: 0;
+}
+
+p.video a:before {
+    content: url(/media/icons/video.png);
+    border: 0;
+}
+
+ul.images {
+    margin: 0;
+    padding: 0;
+}
+
+ul.images li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+ul.images li img {
+    padding: 1px;
+    margin: 2px;
+    border: solid thin white;
+}
+
+ul.images li img:hover {
+    border: solid thin blue;
+}
+
+ul.recipes li {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+}
+
+ul.home {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+ul.home li {
+    list-style-type: none;
+}
