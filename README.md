@@ -1,6 +1,6 @@
 
 Enrico Pilz
-=================
+===========
 
 The data for my homepage [enricopilz.de](http://enricopilz.de/). It's about the things I care.
 
