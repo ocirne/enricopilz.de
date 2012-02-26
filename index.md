@@ -1,6 +1,6 @@
 ---
 layout: default
-title: enricopilz.de
+title: Homepage
 topimage: top00.jpg
 ---
 
