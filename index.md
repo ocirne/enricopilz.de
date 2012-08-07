@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Homepage
+title: Blog
 topimage: top00.jpg
 ---
 
