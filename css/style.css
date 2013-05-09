@@ -123,3 +123,11 @@ li {
 .emph {
     font-weight: bold;
 }
+
+hr {
+    margin: 2em 0;
+    background-color: #ff9900;
+    color: #ff9900;
+    border: none;
+    height: 1px;
+}
