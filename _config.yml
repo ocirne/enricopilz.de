@@ -1,2 +1,2 @@
-markdown: maruku
-auto: true
+
+markdown: kramdown
