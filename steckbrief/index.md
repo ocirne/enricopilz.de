@@ -20,7 +20,7 @@ Geburtstag: 6. März 1980<br />
 Schuhgröße: 45<br />
 Stimmlage: Bass<br />
 Haarfarbe: dunkelblond<br />
-Wohnort: Ulm<br />
+Wohnort: <strike>Ulm</strike> Karlsruhe<br />
 Bevorzugte Tshirtgröße: M-L<br />
 Charakter: [iNTj](http://keirsey.com/personality/ntij.html)
 

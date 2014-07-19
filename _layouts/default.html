@@ -1,45 +1,96 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="de-de">
+<!DOCTYPE html>
+<html xml:lang="en" lang="de-de">
 <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Alles über den Autor." />
+    <meta name="author" content="Enrico Pilz"/ >
+    <link rel="icon" href="http://enricopilz.de/favicon.ico" />
+
     <title>{{ page.title }} &lt; enricopilz.de</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="/css/blog.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div id="main">
-        <div id="top">
-            <h1><a href="http://enricopilz.de"><img alt="enricopilz.de" src="/media/images/{{ page.topimage }}" /></a></h1>
-        </div>
-        <div id="content">
-            <h1>{{ page.title }}</h1>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav"> 
+          <a class="blog-nav-item {% if page.title == 'Inhalt' %}active{% endif %}" href="/">Blog</a>
+          <a class="blog-nav-item {% if page.title == 'Steckbrief' %}active{% endif %}" href="/steckbrief">Steckbrief</a>
+          <a class="blog-nav-item {% if page.title == 'Studium' %}active{% endif %}" href="/studium">Studium</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title"><a href="http://enricopilz.de">Enrico Pilz</a></h1>
+        <p class="lead blog-description">Von allem ein bisschen, bitte.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+          <div class="blog-post">
+            <h2 class="blog-post-title">{{ page.title }}</h2>
+            <p class="blog-post-meta">{{ page.date | date: "%d.%m.%Y" }}</p>
             {{ content }}
+
+            <p>&nbsp;</p>
+            {% if page.previous %}
+            <p>Früher: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+            {% endif %}
+            {% if page.next %}
+            <p>Später: <a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
+            {% endif %}
+          </div>
         </div>
-        <div id="navi">
-            <div class="box">
-                <ul>
-                    <li><a href="/steckbrief">Steckbrief</a></li>
-                    <li><a href="/studium">Studium</a></li>
-                </ul>
-            </div>
-            <div class="box">
-                <ul>
-                    <li><a href="https://github.com/ocirne" title="GitHub">github.com/ocirne</a></li>
-                    <li><a href="https://www.xing.com/profile/Enrico_Pilz3" title="Xing">xing.com/profile/Enrico_Pilz3</a></li>
-                    <li><a href="http://www.youtube.com/user/enricopilz" title="YouTube">youtube.com/user/enricopilz</a></li>
-                </ul>
-            </div>
-            <div class="box">
-                <a href="http://projecteuler.net/" title="Project Euler"><img alt="Project Euler" src="http://projecteuler.net/profile/enrico.png" style="border: 0; width: 200px; height: 60px; " /></a>
-            </div>
-            <div class="box">
-                <a href="http://www.dailymile.com/people/enricopilz" title="Daily Mile"><img src="http://www.dailymile.com/images/badges/dailymile_badge_143x56_orange.png" width="143" height="56" alt="running apps" border="0" /></a>
-            </div>
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>Über</h4>
+            <p>Enrico Pilz, geboren 1980, ist Software&shy;entwickler, Student, Buchleser, Jongleur und Jogger.
+               In diesem Blog schreibt er entsprechend über Software, Erkenntnisse aus dem Studium, gelesene Bücher sowie schöne Erlebnisse beim Werfen, Fangen und Laufen.
+               Er lebt in Karlsruhe.</p>
+          </div>
+
+          <div class="sidebar-module">
+            <h4>Errungenschaften</h4>
+            <ol class="list-unstyled">
+                <!-- <li><a href="http://projecteuler.net/" title="Project Euler"><img alt="Project Euler" src="http://projecteuler.net/profile/enrico.png" style="border: 0; width: 200px; height: 60px; " /></a></li> -->
+              <li><a href="http://projecteuler.net/" title="Project Euler">[projecteuler.net]</a></li>
+              <li><a href="http://www.dailymile.com/people/enricopilz" title="Daily Mile"><img src="http://www.dailymile.com/images/badges/dailymile_badge_143x56_orange.png" width="143" height="56" alt="running apps" border="0" /></a></li>
+            </ol>
+          </div>
+
+          <div class="sidebar-module">
+            <h4>Anderswo</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/ocirne" title="GitHub">github.com/ocirne</a></li>
+              <li><a href="https://www.xing.com/profile/Enrico_Pilz3" title="Xing">xing.com/profile/Enrico_Pilz3</a></li>
+              <li><a href="http://www.youtube.com/user/enricopilz" title="YouTube">youtube.com/user/enricopilz</a></li>
+              <li><a href="http://about.me/enrico.pilz" title="About.Me">about.me/enrico.pilz</a></li>
+            </ol>
+          </div>
+
         </div>
+      </div>
     </div>
-    <div id="footer">
-        &copy; 2006 &ndash; 2012 Enrico Pilz<br />
-        <a href="http://enricopilz.de/">enricopilz.de</a>
+
+    <div class="blog-footer">
+        <p>Gebaut an einem heißen Sommertag mit <a href="http://jekyllrb.com/">Jekyll</a> und <a href="http://getbootstrap.com/">Bootstrap</a></p>
+        <p>&copy; 2006 &ndash; 2014 Enrico Pilz</p>
+        <p><a href="http://enricopilz.de/">enricopilz.de</a></p>
     </div>
+
 </body>
 </html>
