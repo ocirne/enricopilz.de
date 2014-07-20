@@ -26,6 +26,6 @@ Und wenn man ein bisschen Sport treibt, purzeln die Pfunde auch wieder.
 Aus Neugier und zugegebenermaßen Hamstertrieb mache ich grad einen Selbstversuch, wieviele Punkte man sammeln kann, ohne sich anzustrengen.
 Für den Rucksack sollte es locker reichen.
 
-- [Ferrero - Just Sports!](http://www.just-sports.de)
-- [Verbraucherzentrale](http://www.verbraucherzentrale-nrw.de/UNIQ116593976201290/index.html)
+- [Ferrero](http://www.ferrero.de)
+- [Verbraucherzentrale](http://www.verbraucherzentrale-nrw.de)
 

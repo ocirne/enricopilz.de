@@ -4,8 +4,6 @@ title: 'Auftritt: Pimp My Juggler'
 topimage: top00.jpg
 ---
 
-Siehe auch [Bilder](bilder.html#pic20060326).
-
 Die Nummer heißt "Pimp My Juggler".
 
 ### Vorher
@@ -29,7 +27,7 @@ Aber an der Technik hatten wir nix geändert und den Abschluß bilden zehn Würf
 
 Ein paar Ideen haben wir noch.
 
-Zur Anregung findet ihr bei [www.cartoonland.de](http://www.cartoonland.de/) folgende Videos:
+Zur Anregung findet ihr bei [www.cartoonland.de](http://www.cartoonland.de) folgende Videos:
 
 - [VW Unpimp My Ride - I](http://www.hotmedia.org/2006-02-17/videos/vw-unpimp-auto.wmv)
 - [VW Unpimp My Ride - II](http://www.hotmedia.org/2006-02-17/videos/vw-unpimp-abrissbirne.wmv)

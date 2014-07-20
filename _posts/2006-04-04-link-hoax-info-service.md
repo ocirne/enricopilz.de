@@ -10,5 +10,5 @@ Daher möchte ich eine Bitte loswerden.
 
 Bevor ihr eine Kettenmail weiterschickt, schaut bitte erst mal auf diese Seite:
 
-[TU-Berlin \* Hoax-Info Service](http://www.tu-berlin.de/www/software/hoax.shtml)
+[TU-Berlin \* Hoax-Info Service](http://hoax-info.tubit.tu-berlin.de/hoax/)
 
